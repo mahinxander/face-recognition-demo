@@ -5,7 +5,7 @@
 # face-recognition-demo
 Face recognition has emerged as a groundbreaking technology in computer vision, revolutionizing various industries such as security, surveillance, and human-computer interaction. Python, with its rich ecosystem of libraries and tools, offers an ideal environment for developing robust and accurate face recognition systems.
 
-#Implementation of Face Recognition in Python
+# Implementation of Face Recognition in Python
 **Install the Required Packages:** Begin by installing face_recognition, numpy, and OpenCV via pip or conda.
 <br>
 **Face Detection:** Utilize the face detection functionality of face_recognition or OpenCV to detect faces in images or video streams. This step localizes the regions of interest (faces) within the input data.
