@@ -18,6 +18,6 @@ Face recognition has emerged as a groundbreaking technology in computer vision, 
 <br>
 **Evaluation and Refinement:** Evaluate the accuracy of your face recognition system by measuring metrics such as precision, recall, and F1-score. Fine-tune the model, experiment with different techniques, or adjust hyperparameters to improve the system’s performance.
 
-#Working
+# Working
 The video capture is initialized, and the frame is continuously processed to detect faces, encode them, and compare them with the known faces. The recognized faces are displayed with their names in bounding boxes on the video stream. To use this code, make sure to have the face_recognition library and OpenCV installed. Replace the sample image paths in the load_image_file() calls with your own known face images. Run the code, and it will open a window showing the live video stream with face recognition results. The code provided is a simplified example for demonstration purposes. In a production environment, additional error handling, optimizations, and security considerations should be implemented.
 
