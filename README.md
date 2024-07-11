@@ -7,10 +7,15 @@ Face recognition has emerged as a groundbreaking technology in computer vision, 
 
 #Implementation of Face Recognition in Python
 **Install the Required Packages:** Begin by installing face_recognition, numpy, and OpenCV via pip or conda.
+<br>
 **Face Detection:** Utilize the face detection functionality of face_recognition or OpenCV to detect faces in images or video streams. This step localizes the regions of interest (faces) within the input data.
+<br>
 **Face Alignment and Pre-processing:** Align the detected faces to a standardized pose and apply pre-processing techniques like normalization, histogram equalization, or image resizing to improve the consistency and quality of the input data.
+<br>
 **Face Encoding:** Utilize face_recognition to generate facial encodings (embeddings) for the detected and pre-processed faces. These encodings capture the unique features and characteristics of each face.
+<br>
 **Face Recognition:** Compare the generated face encodings with the known encodings of individuals to recognize and label the detected faces. Employ suitable matching algorithms (e.g., Euclidean distance or cosine similarity) to identify the closest matches.
+<br>
 **Evaluation and Refinement:** Evaluate the accuracy of your face recognition system by measuring metrics such as precision, recall, and F1-score. Fine-tune the model, experiment with different techniques, or adjust hyperparameters to improve the system’s performance.
 
 #Working
